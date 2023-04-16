@@ -1,5 +1,6 @@
-*a, = map(int, open('17-1.txt').read().split())
-
+f = open('17-1.txt')
+*a, = map(int, f.read().split())
+f.close()
 cur_len = 1
 max_len = 1
 amount = 1
